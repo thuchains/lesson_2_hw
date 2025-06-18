@@ -49,19 +49,26 @@ nav li:first-child {
     margin-right: auto;
 }
 
-.profilePic {
-    margin-left: 7vh;
+.profileContainer {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    width: 30vh;
-    height: 30vh;
+    justify-content: center;
+    padding: 25px 0 0 20px;
+}
+
+.profilePic {
+    width: 50vh;
+    height: 50vh;
     border-radius: 50%;
     object-fit: cover;
-    padding: 15px 0 0 0;
 }
 
 h1 {
-    margin-left: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
     padding: 15px 0 0 0;
 }
 
